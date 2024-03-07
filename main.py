@@ -39,9 +39,9 @@ class akinator:
             
             resposta = input("(s/n): ")
             if pergunta_aleatoria == akinator.lista_perguntas_genericas[1] and resposta.lower() == "s":
-                banda = ['Death', 'Cannibal Corpse']
-            else:
                 banda = ['Metallica', 'Iron Maiden', 'Black Sabbath', 'Judas Priest', 'Megadeth', 'Slayer', 'Pantera', 'Motorhead']
+            else:
+                banda = ['Death', 'Cannibal Corpse']
             for banda_nome in banda:
                 akinator.bandas_heavy_metal.remove(banda_nome)
             
